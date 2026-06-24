@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load model
-with open("your_model.pkl", "rb") as file:
+with open("heart_model.pkl", "rb") as file:
     model = pickle.load(file)
 
 st.set_page_config(page_title="ML Prediction App")
